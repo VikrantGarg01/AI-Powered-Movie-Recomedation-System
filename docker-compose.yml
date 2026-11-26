@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  # MongoDB Database Service
+  mongodb:
+    image: mongo:7.0
+    container_name: cinepulse-mongodb
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: cinepulse_db
+    volumes:
+      - mongo_data:/data/db
+
+  # Node.js + Express REST API Backend Service
+  backend:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: cinepulse-backend
+    restart: unless-stopped
+    ports:
+      - "5001:5001"
+    environment:
+      PORT: 5001
+      NODE_ENV: production
+      MONGO_URI: mongodb://mongodb:27017/cinepulse_db
+      JWT_SECRET: ${JWT_SECRET:-cinepulse_docker_production_jwt_secret_key_2026}
+      JWT_EXPIRE: 30d
+      CLIENT_URL: http://localhost:5173
+    depends_on:
+      - mongodb
+    volumes:
+      - uploads_data:/app/uploads
+
+volumes:
+  mongo_data:
+  uploads_data:
