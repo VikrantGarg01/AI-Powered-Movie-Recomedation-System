@@ -1,0 +1,43 @@
+name: CinePulse CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test_and_build:
+    runs-on: ubuntu-latest
+
+    services:
+      mongodb:
+        image: mongo:7.0
+        ports:
+          - 27017:27017
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: 'npm'
+
+    - name: Install Frontend Dependencies
+      run: npm ci
+
+    - name: Install Backend Dependencies
+      run: cd server && npm ci
+
+    - name: Run Automated Test Suites (Unit & API)
+      env:
+        NODE_ENV: test
+        MONGO_URI: mongodb://127.0.0.1:27017/cinepulse_db
+        JWT_SECRET: ci_test_secret_key_12345
+      run: npm test
+
+    - name: Build Frontend Production Assets
+      run: npm run build
