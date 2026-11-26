@@ -1,0 +1,2339 @@
+{
+  "catalogSize": 58,
+  "knnParameters": {
+    "k": 6,
+    "metric": "cosine",
+    "algorithm": "brute"
+  },
+  "evaluationMetrics": {
+    "precisionAtK": 0.9621,
+    "recallAtK": 0.2015,
+    "f1AtK": 0.3332,
+    "silhouetteScore": 0.0294,
+    "regressionRMSE": 0.7084,
+    "regressionMAE": 0.5772,
+    "regressionR2": -0.2636
+  },
+  "movies": {
+    "20453": {
+      "title": "3 Idiots",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.2476,
+        -0.0646
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "61202",
+          "title": "Zindagi Na Milegi Dobara",
+          "cosineDistance": 0.7551,
+          "cosineSimilarity": 0.2449
+        },
+        {
+          "movieId": "1112426",
+          "title": "Stree 2",
+          "cosineDistance": 0.7832,
+          "cosineSimilarity": 0.2168
+        },
+        {
+          "movieId": "360814",
+          "title": "Dangal",
+          "cosineDistance": 0.7905,
+          "cosineSimilarity": 0.2095
+        },
+        {
+          "movieId": "15774",
+          "title": "Swades",
+          "cosineDistance": 0.8341,
+          "cosineSimilarity": 0.1659
+        },
+        {
+          "movieId": "534780",
+          "title": "Andhadhun",
+          "cosineDistance": 0.8473,
+          "cosineSimilarity": 0.1527
+        }
+      ]
+    },
+    "579974": {
+      "title": "RRR",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.0655,
+        0.3243
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "256040",
+          "title": "B\u0101hubali: The Beginning",
+          "cosineDistance": 0.5793,
+          "cosineSimilarity": 0.4207
+        },
+        {
+          "movieId": "350312",
+          "title": "B\u0101hubali 2: The Conclusion",
+          "cosineDistance": 0.7191,
+          "cosineSimilarity": 0.2809
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.7991,
+          "cosineSimilarity": 0.2009
+        },
+        {
+          "movieId": "15774",
+          "title": "Swades",
+          "cosineDistance": 0.8382,
+          "cosineSimilarity": 0.1618
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.8477,
+          "cosineSimilarity": 0.1523
+        }
+      ]
+    },
+    "360814": {
+      "title": "Dangal",
+      "cluster": 2,
+      "pcaCoords": [
+        -0.2347,
+        -0.1108
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "14624",
+          "title": "The Ultimate Gift",
+          "cosineDistance": 0.7554,
+          "cosineSimilarity": 0.2446
+        },
+        {
+          "movieId": "20453",
+          "title": "3 Idiots",
+          "cosineDistance": 0.7905,
+          "cosineSimilarity": 0.2095
+        },
+        {
+          "movieId": "1112426",
+          "title": "Stree 2",
+          "cosineDistance": 0.7927,
+          "cosineSimilarity": 0.2073
+        },
+        {
+          "movieId": "534780",
+          "title": "Andhadhun",
+          "cosineDistance": 0.7963,
+          "cosineSimilarity": 0.2037
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.8082,
+          "cosineSimilarity": 0.1918
+        }
+      ]
+    },
+    "19404": {
+      "title": "Dilwale Dulhania Le Jayenge",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.3765,
+        -0.3003
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "106440",
+          "title": "An American in China",
+          "cosineDistance": 0.6108,
+          "cosineSimilarity": 0.3892
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.6403,
+          "cosineSimilarity": 0.3597
+        },
+        {
+          "movieId": "61202",
+          "title": "Zindagi Na Milegi Dobara",
+          "cosineDistance": 0.6539,
+          "cosineSimilarity": 0.3461
+        },
+        {
+          "movieId": "297222",
+          "title": "PK",
+          "cosineDistance": 0.6824,
+          "cosineSimilarity": 0.3176
+        },
+        {
+          "movieId": "13",
+          "title": "Forrest Gump",
+          "cosineDistance": 0.6974,
+          "cosineSimilarity": 0.3026
+        }
+      ]
+    },
+    "297222": {
+      "title": "PK",
+      "cluster": 0,
+      "pcaCoords": [
+        -0.1995,
+        -0.2463
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "19404",
+          "title": "Dilwale Dulhania Le Jayenge",
+          "cosineDistance": 0.6824,
+          "cosineSimilarity": 0.3176
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.7062,
+          "cosineSimilarity": 0.2938
+        },
+        {
+          "movieId": "801688",
+          "title": "Kalki 2898-AD",
+          "cosineDistance": 0.7861,
+          "cosineSimilarity": 0.2139
+        },
+        {
+          "movieId": "13",
+          "title": "Forrest Gump",
+          "cosineDistance": 0.8322,
+          "cosineSimilarity": 0.1678
+        },
+        {
+          "movieId": "20453",
+          "title": "3 Idiots",
+          "cosineDistance": 0.8513,
+          "cosineSimilarity": 0.1487
+        }
+      ]
+    },
+    "256040": {
+      "title": "B\u0101hubali: The Beginning",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.0819,
+        0.3965
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "350312",
+          "title": "B\u0101hubali 2: The Conclusion",
+          "cosineDistance": 0.446,
+          "cosineSimilarity": 0.554
+        },
+        {
+          "movieId": "579974",
+          "title": "RRR",
+          "cosineDistance": 0.5793,
+          "cosineSimilarity": 0.4207
+        },
+        {
+          "movieId": "361743",
+          "title": "Top Gun: Maverick",
+          "cosineDistance": 0.7175,
+          "cosineSimilarity": 0.2825
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.7339,
+          "cosineSimilarity": 0.2661
+        },
+        {
+          "movieId": "15774",
+          "title": "Swades",
+          "cosineDistance": 0.7651,
+          "cosineSimilarity": 0.2349
+        }
+      ]
+    },
+    "350312": {
+      "title": "B\u0101hubali 2: The Conclusion",
+      "cluster": 3,
+      "pcaCoords": [
+        0.1257,
+        0.3023
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "256040",
+          "title": "B\u0101hubali: The Beginning",
+          "cosineDistance": 0.446,
+          "cosineSimilarity": 0.554
+        },
+        {
+          "movieId": "579974",
+          "title": "RRR",
+          "cosineDistance": 0.7191,
+          "cosineSimilarity": 0.2809
+        },
+        {
+          "movieId": "858485",
+          "title": "Kantara",
+          "cosineDistance": 0.7883,
+          "cosineSimilarity": 0.2117
+        },
+        {
+          "movieId": "801688",
+          "title": "Kalki 2898-AD",
+          "cosineDistance": 0.8493,
+          "cosineSimilarity": 0.1507
+        },
+        {
+          "movieId": "545611",
+          "title": "Everything Everywhere All at Once",
+          "cosineDistance": 0.8528,
+          "cosineSimilarity": 0.1472
+        }
+      ]
+    },
+    "560057": {
+      "title": "The Sea Beast",
+      "cluster": 1,
+      "pcaCoords": [
+        0.0954,
+        -0.0393
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "129",
+          "title": "Spirited Away",
+          "cosineDistance": 0.5416,
+          "cosineSimilarity": 0.4584
+        },
+        {
+          "movieId": "73783",
+          "title": "If You Were Me: Anima Vision",
+          "cosineDistance": 0.8088,
+          "cosineSimilarity": 0.1912
+        },
+        {
+          "movieId": "592834",
+          "title": "My Spy",
+          "cosineDistance": 0.8502,
+          "cosineSimilarity": 0.1498
+        },
+        {
+          "movieId": "350312",
+          "title": "B\u0101hubali 2: The Conclusion",
+          "cosineDistance": 0.8584,
+          "cosineSimilarity": 0.1416
+        },
+        {
+          "movieId": "360814",
+          "title": "Dangal",
+          "cosineDistance": 0.8738,
+          "cosineSimilarity": 0.1262
+        }
+      ]
+    },
+    "632617": {
+      "title": "C'mon C'mon",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.0467,
+        -0.052
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "335984",
+          "title": "Blade Runner 2049",
+          "cosineDistance": 0.8572,
+          "cosineSimilarity": 0.1428
+        },
+        {
+          "movieId": "680",
+          "title": "Pulp Fiction",
+          "cosineDistance": 0.874,
+          "cosineSimilarity": 0.126
+        },
+        {
+          "movieId": "780076",
+          "title": "age: M\u2192F",
+          "cosineDistance": 0.9072,
+          "cosineSimilarity": 0.0928
+        },
+        {
+          "movieId": "15774",
+          "title": "Swades",
+          "cosineDistance": 0.9157,
+          "cosineSimilarity": 0.0843
+        },
+        {
+          "movieId": "376867",
+          "title": "Moonlight",
+          "cosineDistance": 0.9231,
+          "cosineSimilarity": 0.0769
+        }
+      ]
+    },
+    "872906": {
+      "title": "Jawan",
+      "cluster": 3,
+      "pcaCoords": [
+        0.018,
+        0.4717
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "587412",
+          "title": "K.G.F: Chapter 2",
+          "cosineDistance": 0.47,
+          "cosineSimilarity": 0.53
+        },
+        {
+          "movieId": "858485",
+          "title": "Kantara",
+          "cosineDistance": 0.6147,
+          "cosineSimilarity": 0.3853
+        },
+        {
+          "movieId": "155",
+          "title": "The Dark Knight",
+          "cosineDistance": 0.7752,
+          "cosineSimilarity": 0.2248
+        },
+        {
+          "movieId": "15774",
+          "title": "Swades",
+          "cosineDistance": 0.8176,
+          "cosineSimilarity": 0.1824
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.84,
+          "cosineSimilarity": 0.16
+        }
+      ]
+    },
+    "14624": {
+      "title": "The Ultimate Gift",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.1706,
+        -0.1935
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "360814",
+          "title": "Dangal",
+          "cosineDistance": 0.7554,
+          "cosineSimilarity": 0.2446
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.8537,
+          "cosineSimilarity": 0.1463
+        },
+        {
+          "movieId": "13",
+          "title": "Forrest Gump",
+          "cosineDistance": 0.8547,
+          "cosineSimilarity": 0.1453
+        },
+        {
+          "movieId": "106440",
+          "title": "An American in China",
+          "cosineDistance": 0.8656,
+          "cosineSimilarity": 0.1344
+        },
+        {
+          "movieId": "592834",
+          "title": "My Spy",
+          "cosineDistance": 0.871,
+          "cosineSimilarity": 0.129
+        }
+      ]
+    },
+    "106440": {
+      "title": "An American in China",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.3865,
+        -0.3763
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.504,
+          "cosineSimilarity": 0.496
+        },
+        {
+          "movieId": "19404",
+          "title": "Dilwale Dulhania Le Jayenge",
+          "cosineDistance": 0.6108,
+          "cosineSimilarity": 0.3892
+        },
+        {
+          "movieId": "13",
+          "title": "Forrest Gump",
+          "cosineDistance": 0.6195,
+          "cosineSimilarity": 0.3805
+        },
+        {
+          "movieId": "780076",
+          "title": "age: M\u2192F",
+          "cosineDistance": 0.7868,
+          "cosineSimilarity": 0.2132
+        },
+        {
+          "movieId": "61202",
+          "title": "Zindagi Na Milegi Dobara",
+          "cosineDistance": 0.8199,
+          "cosineSimilarity": 0.1801
+        }
+      ]
+    },
+    "534780": {
+      "title": "Andhadhun",
+      "cluster": 0,
+      "pcaCoords": [
+        -0.1644,
+        0.1097
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "1112426",
+          "title": "Stree 2",
+          "cosineDistance": 0.7795,
+          "cosineSimilarity": 0.2205
+        },
+        {
+          "movieId": "360814",
+          "title": "Dangal",
+          "cosineDistance": 0.7963,
+          "cosineSimilarity": 0.2037
+        },
+        {
+          "movieId": "20453",
+          "title": "3 Idiots",
+          "cosineDistance": 0.8473,
+          "cosineSimilarity": 0.1527
+        },
+        {
+          "movieId": "497814",
+          "title": "Breaking In",
+          "cosineDistance": 0.8587,
+          "cosineSimilarity": 0.1413
+        },
+        {
+          "movieId": "680",
+          "title": "Pulp Fiction",
+          "cosineDistance": 0.8591,
+          "cosineSimilarity": 0.1409
+        }
+      ]
+    },
+    "4247": {
+      "title": "Scary Movie",
+      "cluster": 2,
+      "pcaCoords": [
+        -0.0991,
+        -0.1693
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "297222",
+          "title": "PK",
+          "cosineDistance": 0.8547,
+          "cosineSimilarity": 0.1453
+        },
+        {
+          "movieId": "592834",
+          "title": "My Spy",
+          "cosineDistance": 0.9131,
+          "cosineSimilarity": 0.0869
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.9149,
+          "cosineSimilarity": 0.0851
+        },
+        {
+          "movieId": "1112426",
+          "title": "Stree 2",
+          "cosineDistance": 0.9153,
+          "cosineSimilarity": 0.0847
+        },
+        {
+          "movieId": "376867",
+          "title": "Moonlight",
+          "cosineDistance": 0.9158,
+          "cosineSimilarity": 0.0842
+        }
+      ]
+    },
+    "73783": {
+      "title": "If You Were Me: Anima Vision",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.0026,
+        -0.0689
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "129",
+          "title": "Spirited Away",
+          "cosineDistance": 0.7779,
+          "cosineSimilarity": 0.2221
+        },
+        {
+          "movieId": "560057",
+          "title": "The Sea Beast",
+          "cosineDistance": 0.8088,
+          "cosineSimilarity": 0.1912
+        },
+        {
+          "movieId": "569094",
+          "title": "Spider-Man: Across the Spider-Verse",
+          "cosineDistance": 0.8564,
+          "cosineSimilarity": 0.1436
+        },
+        {
+          "movieId": "780076",
+          "title": "age: M\u2192F",
+          "cosineDistance": 0.8582,
+          "cosineSimilarity": 0.1418
+        },
+        {
+          "movieId": "497814",
+          "title": "Breaking In",
+          "cosineDistance": 0.8826,
+          "cosineSimilarity": 0.1174
+        }
+      ]
+    },
+    "376867": {
+      "title": "Moonlight",
+      "cluster": 2,
+      "pcaCoords": [
+        -0.081,
+        -0.0914
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "13",
+          "title": "Forrest Gump",
+          "cosineDistance": 0.8911,
+          "cosineSimilarity": 0.1089
+        },
+        {
+          "movieId": "780076",
+          "title": "age: M\u2192F",
+          "cosineDistance": 0.8984,
+          "cosineSimilarity": 0.1016
+        },
+        {
+          "movieId": "4247",
+          "title": "Scary Movie",
+          "cosineDistance": 0.9158,
+          "cosineSimilarity": 0.0842
+        },
+        {
+          "movieId": "550",
+          "title": "Fight Club",
+          "cosineDistance": 0.9196,
+          "cosineSimilarity": 0.0804
+        },
+        {
+          "movieId": "632617",
+          "title": "C'mon C'mon",
+          "cosineDistance": 0.9231,
+          "cosineSimilarity": 0.0769
+        }
+      ]
+    },
+    "497814": {
+      "title": "Breaking In",
+      "cluster": 0,
+      "pcaCoords": [
+        0.036,
+        0.3035
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.6429,
+          "cosineSimilarity": 0.3571
+        },
+        {
+          "movieId": "155",
+          "title": "The Dark Knight",
+          "cosineDistance": 0.8458,
+          "cosineSimilarity": 0.1542
+        },
+        {
+          "movieId": "872906",
+          "title": "Jawan",
+          "cosineDistance": 0.8478,
+          "cosineSimilarity": 0.1522
+        },
+        {
+          "movieId": "534780",
+          "title": "Andhadhun",
+          "cosineDistance": 0.8587,
+          "cosineSimilarity": 0.1413
+        },
+        {
+          "movieId": "680",
+          "title": "Pulp Fiction",
+          "cosineDistance": 0.87,
+          "cosineSimilarity": 0.13
+        }
+      ]
+    },
+    "335033": {
+      "title": "She Waits",
+      "cluster": 4,
+      "pcaCoords": [
+        -0.065,
+        0.0659
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "955991",
+          "title": "The Offering",
+          "cosineDistance": 0.6086,
+          "cosineSimilarity": 0.3914
+        },
+        {
+          "movieId": "19402",
+          "title": "Wisegal",
+          "cosineDistance": 0.7294,
+          "cosineSimilarity": 0.2706
+        },
+        {
+          "movieId": "1112426",
+          "title": "Stree 2",
+          "cosineDistance": 0.8035,
+          "cosineSimilarity": 0.1965
+        },
+        {
+          "movieId": "538858",
+          "title": "Tumbbad",
+          "cosineDistance": 0.8366,
+          "cosineSimilarity": 0.1634
+        },
+        {
+          "movieId": "278",
+          "title": "The Shawshank Redemption",
+          "cosineDistance": 0.9807,
+          "cosineSimilarity": 0.0193
+        }
+      ]
+    },
+    "955991": {
+      "title": "The Offering",
+      "cluster": 4,
+      "pcaCoords": [
+        -0.093,
+        0.0931
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "335033",
+          "title": "She Waits",
+          "cosineDistance": 0.6086,
+          "cosineSimilarity": 0.3914
+        },
+        {
+          "movieId": "1112426",
+          "title": "Stree 2",
+          "cosineDistance": 0.7172,
+          "cosineSimilarity": 0.2828
+        },
+        {
+          "movieId": "538858",
+          "title": "Tumbbad",
+          "cosineDistance": 0.7624,
+          "cosineSimilarity": 0.2376
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.8629,
+          "cosineSimilarity": 0.1371
+        },
+        {
+          "movieId": "15774",
+          "title": "Swades",
+          "cosineDistance": 0.9006,
+          "cosineSimilarity": 0.0994
+        }
+      ]
+    },
+    "19402": {
+      "title": "Wisegal",
+      "cluster": 0,
+      "pcaCoords": [
+        -0.1051,
+        0.122
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "238",
+          "title": "The Godfather",
+          "cosineDistance": 0.529,
+          "cosineSimilarity": 0.471
+        },
+        {
+          "movieId": "335033",
+          "title": "She Waits",
+          "cosineDistance": 0.7294,
+          "cosineSimilarity": 0.2706
+        },
+        {
+          "movieId": "278",
+          "title": "The Shawshank Redemption",
+          "cosineDistance": 0.7421,
+          "cosineSimilarity": 0.2579
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.8797,
+          "cosineSimilarity": 0.1203
+        },
+        {
+          "movieId": "497814",
+          "title": "Breaking In",
+          "cosineDistance": 0.8935,
+          "cosineSimilarity": 0.1065
+        }
+      ]
+    },
+    "592834": {
+      "title": "My Spy",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.0652,
+        -0.071
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "360814",
+          "title": "Dangal",
+          "cosineDistance": 0.8396,
+          "cosineSimilarity": 0.1604
+        },
+        {
+          "movieId": "560057",
+          "title": "The Sea Beast",
+          "cosineDistance": 0.8502,
+          "cosineSimilarity": 0.1498
+        },
+        {
+          "movieId": "129",
+          "title": "Spirited Away",
+          "cosineDistance": 0.8584,
+          "cosineSimilarity": 0.1416
+        },
+        {
+          "movieId": "27205",
+          "title": "Inception",
+          "cosineDistance": 0.8593,
+          "cosineSimilarity": 0.1407
+        },
+        {
+          "movieId": "106440",
+          "title": "An American in China",
+          "cosineDistance": 0.8638,
+          "cosineSimilarity": 0.1362
+        }
+      ]
+    },
+    "780076": {
+      "title": "age: M\u2192F",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.0868,
+        -0.0987
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "106440",
+          "title": "An American in China",
+          "cosineDistance": 0.7868,
+          "cosineSimilarity": 0.2132
+        },
+        {
+          "movieId": "73783",
+          "title": "If You Were Me: Anima Vision",
+          "cosineDistance": 0.8582,
+          "cosineSimilarity": 0.1418
+        },
+        {
+          "movieId": "376867",
+          "title": "Moonlight",
+          "cosineDistance": 0.8984,
+          "cosineSimilarity": 0.1016
+        },
+        {
+          "movieId": "632617",
+          "title": "C'mon C'mon",
+          "cosineDistance": 0.9072,
+          "cosineSimilarity": 0.0928
+        },
+        {
+          "movieId": "335984",
+          "title": "Blade Runner 2049",
+          "cosineDistance": 0.9265,
+          "cosineSimilarity": 0.0735
+        }
+      ]
+    },
+    "799766": {
+      "title": "Better Man",
+      "cluster": 2,
+      "pcaCoords": [
+        -0.0786,
+        -0.0541
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "244786",
+          "title": "Whiplash",
+          "cosineDistance": 0.7867,
+          "cosineSimilarity": 0.2133
+        },
+        {
+          "movieId": "872585",
+          "title": "Oppenheimer",
+          "cosineDistance": 0.8596,
+          "cosineSimilarity": 0.1404
+        },
+        {
+          "movieId": "13",
+          "title": "Forrest Gump",
+          "cosineDistance": 0.9053,
+          "cosineSimilarity": 0.0947
+        },
+        {
+          "movieId": "4247",
+          "title": "Scary Movie",
+          "cosineDistance": 0.9201,
+          "cosineSimilarity": 0.0799
+        },
+        {
+          "movieId": "19666",
+          "title": "Lagaan: Once Upon a Time in India",
+          "cosineDistance": 0.9258,
+          "cosineSimilarity": 0.0742
+        }
+      ]
+    },
+    "157336": {
+      "title": "Interstellar",
+      "cluster": 1,
+      "pcaCoords": [
+        0.1947,
+        -0.2177
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "299534",
+          "title": "Avengers: Endgame",
+          "cosineDistance": 0.7523,
+          "cosineSimilarity": 0.2477
+        },
+        {
+          "movieId": "19995",
+          "title": "Avatar",
+          "cosineDistance": 0.8166,
+          "cosineSimilarity": 0.1834
+        },
+        {
+          "movieId": "335984",
+          "title": "Blade Runner 2049",
+          "cosineDistance": 0.8266,
+          "cosineSimilarity": 0.1734
+        },
+        {
+          "movieId": "438631",
+          "title": "Dune",
+          "cosineDistance": 0.8427,
+          "cosineSimilarity": 0.1573
+        },
+        {
+          "movieId": "693134",
+          "title": "Dune: Part Two",
+          "cosineDistance": 0.8472,
+          "cosineSimilarity": 0.1528
+        }
+      ]
+    },
+    "27205": {
+      "title": "Inception",
+      "cluster": 1,
+      "pcaCoords": [
+        0.1889,
+        0.053
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "603",
+          "title": "The Matrix",
+          "cosineDistance": 0.6302,
+          "cosineSimilarity": 0.3698
+        },
+        {
+          "movieId": "155",
+          "title": "The Dark Knight",
+          "cosineDistance": 0.7848,
+          "cosineSimilarity": 0.2152
+        },
+        {
+          "movieId": "592834",
+          "title": "My Spy",
+          "cosineDistance": 0.8593,
+          "cosineSimilarity": 0.1407
+        },
+        {
+          "movieId": "497814",
+          "title": "Breaking In",
+          "cosineDistance": 0.8732,
+          "cosineSimilarity": 0.1268
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.8785,
+          "cosineSimilarity": 0.1215
+        }
+      ]
+    },
+    "155": {
+      "title": "The Dark Knight",
+      "cluster": 0,
+      "pcaCoords": [
+        0.1342,
+        0.2113
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "680",
+          "title": "Pulp Fiction",
+          "cosineDistance": 0.6974,
+          "cosineSimilarity": 0.3026
+        },
+        {
+          "movieId": "872906",
+          "title": "Jawan",
+          "cosineDistance": 0.7752,
+          "cosineSimilarity": 0.2248
+        },
+        {
+          "movieId": "27205",
+          "title": "Inception",
+          "cosineDistance": 0.7848,
+          "cosineSimilarity": 0.2152
+        },
+        {
+          "movieId": "587412",
+          "title": "K.G.F: Chapter 2",
+          "cosineDistance": 0.8331,
+          "cosineSimilarity": 0.1669
+        },
+        {
+          "movieId": "634649",
+          "title": "Spider-Man: No Way Home",
+          "cosineDistance": 0.8421,
+          "cosineSimilarity": 0.1579
+        }
+      ]
+    },
+    "872585": {
+      "title": "Oppenheimer",
+      "cluster": 2,
+      "pcaCoords": [
+        -0.0444,
+        -0.0056
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "19666",
+          "title": "Lagaan: Once Upon a Time in India",
+          "cosineDistance": 0.8068,
+          "cosineSimilarity": 0.1932
+        },
+        {
+          "movieId": "799766",
+          "title": "Better Man",
+          "cosineDistance": 0.8596,
+          "cosineSimilarity": 0.1404
+        },
+        {
+          "movieId": "361743",
+          "title": "Top Gun: Maverick",
+          "cosineDistance": 0.9023,
+          "cosineSimilarity": 0.0977
+        },
+        {
+          "movieId": "579974",
+          "title": "RRR",
+          "cosineDistance": 0.9099,
+          "cosineSimilarity": 0.0901
+        },
+        {
+          "movieId": "238",
+          "title": "The Godfather",
+          "cosineDistance": 0.9127,
+          "cosineSimilarity": 0.0873
+        }
+      ]
+    },
+    "693134": {
+      "title": "Dune: Part Two",
+      "cluster": 1,
+      "pcaCoords": [
+        0.3044,
+        -0.2448
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "438631",
+          "title": "Dune",
+          "cosineDistance": 0.3907,
+          "cosineSimilarity": 0.6093
+        },
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.8469,
+          "cosineSimilarity": 0.1531
+        },
+        {
+          "movieId": "157336",
+          "title": "Interstellar",
+          "cosineDistance": 0.8472,
+          "cosineSimilarity": 0.1528
+        },
+        {
+          "movieId": "299534",
+          "title": "Avengers: Endgame",
+          "cosineDistance": 0.8518,
+          "cosineSimilarity": 0.1482
+        },
+        {
+          "movieId": "603",
+          "title": "The Matrix",
+          "cosineDistance": 0.8669,
+          "cosineSimilarity": 0.1331
+        }
+      ]
+    },
+    "550": {
+      "title": "Fight Club",
+      "cluster": 0,
+      "pcaCoords": [
+        -0.0131,
+        0.0504
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "496243",
+          "title": "Parasite",
+          "cosineDistance": 0.8474,
+          "cosineSimilarity": 0.1526
+        },
+        {
+          "movieId": "244786",
+          "title": "Whiplash",
+          "cosineDistance": 0.8649,
+          "cosineSimilarity": 0.1351
+        },
+        {
+          "movieId": "497814",
+          "title": "Breaking In",
+          "cosineDistance": 0.8882,
+          "cosineSimilarity": 0.1118
+        },
+        {
+          "movieId": "872906",
+          "title": "Jawan",
+          "cosineDistance": 0.9101,
+          "cosineSimilarity": 0.0899
+        },
+        {
+          "movieId": "858485",
+          "title": "Kantara",
+          "cosineDistance": 0.9164,
+          "cosineSimilarity": 0.0836
+        }
+      ]
+    },
+    "278": {
+      "title": "The Shawshank Redemption",
+      "cluster": 0,
+      "pcaCoords": [
+        -0.1245,
+        0.09
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "238",
+          "title": "The Godfather",
+          "cosineDistance": 0.6612,
+          "cosineSimilarity": 0.3388
+        },
+        {
+          "movieId": "19402",
+          "title": "Wisegal",
+          "cosineDistance": 0.7421,
+          "cosineSimilarity": 0.2579
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.8138,
+          "cosineSimilarity": 0.1862
+        },
+        {
+          "movieId": "680",
+          "title": "Pulp Fiction",
+          "cosineDistance": 0.8974,
+          "cosineSimilarity": 0.1026
+        },
+        {
+          "movieId": "872585",
+          "title": "Oppenheimer",
+          "cosineDistance": 0.915,
+          "cosineSimilarity": 0.085
+        }
+      ]
+    },
+    "496243": {
+      "title": "Parasite",
+      "cluster": 0,
+      "pcaCoords": [
+        -0.1195,
+        -0.0232
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "680",
+          "title": "Pulp Fiction",
+          "cosineDistance": 0.768,
+          "cosineSimilarity": 0.232
+        },
+        {
+          "movieId": "550",
+          "title": "Fight Club",
+          "cosineDistance": 0.8474,
+          "cosineSimilarity": 0.1526
+        },
+        {
+          "movieId": "61202",
+          "title": "Zindagi Na Milegi Dobara",
+          "cosineDistance": 0.8697,
+          "cosineSimilarity": 0.1303
+        },
+        {
+          "movieId": "244786",
+          "title": "Whiplash",
+          "cosineDistance": 0.8716,
+          "cosineSimilarity": 0.1284
+        },
+        {
+          "movieId": "20453",
+          "title": "3 Idiots",
+          "cosineDistance": 0.8865,
+          "cosineSimilarity": 0.1135
+        }
+      ]
+    },
+    "603": {
+      "title": "The Matrix",
+      "cluster": 1,
+      "pcaCoords": [
+        0.3289,
+        -0.1152
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "27205",
+          "title": "Inception",
+          "cosineDistance": 0.6302,
+          "cosineSimilarity": 0.3698
+        },
+        {
+          "movieId": "545611",
+          "title": "Everything Everywhere All at Once",
+          "cosineDistance": 0.7275,
+          "cosineSimilarity": 0.2725
+        },
+        {
+          "movieId": "438631",
+          "title": "Dune",
+          "cosineDistance": 0.8059,
+          "cosineSimilarity": 0.1941
+        },
+        {
+          "movieId": "335984",
+          "title": "Blade Runner 2049",
+          "cosineDistance": 0.8067,
+          "cosineSimilarity": 0.1933
+        },
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.8374,
+          "cosineSimilarity": 0.1626
+        }
+      ]
+    },
+    "299534": {
+      "title": "Avengers: Endgame",
+      "cluster": 1,
+      "pcaCoords": [
+        0.5088,
+        -0.1706
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "634649",
+          "title": "Spider-Man: No Way Home",
+          "cosineDistance": 0.4829,
+          "cosineSimilarity": 0.5171
+        },
+        {
+          "movieId": "545611",
+          "title": "Everything Everywhere All at Once",
+          "cosineDistance": 0.7049,
+          "cosineSimilarity": 0.2951
+        },
+        {
+          "movieId": "19995",
+          "title": "Avatar",
+          "cosineDistance": 0.7207,
+          "cosineSimilarity": 0.2793
+        },
+        {
+          "movieId": "569094",
+          "title": "Spider-Man: Across the Spider-Verse",
+          "cosineDistance": 0.7256,
+          "cosineSimilarity": 0.2744
+        },
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.7332,
+          "cosineSimilarity": 0.2668
+        }
+      ]
+    },
+    "634649": {
+      "title": "Spider-Man: No Way Home",
+      "cluster": 1,
+      "pcaCoords": [
+        0.5045,
+        -0.1649
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "569094",
+          "title": "Spider-Man: Across the Spider-Verse",
+          "cosineDistance": 0.4059,
+          "cosineSimilarity": 0.5941
+        },
+        {
+          "movieId": "299534",
+          "title": "Avengers: Endgame",
+          "cosineDistance": 0.4829,
+          "cosineSimilarity": 0.5171
+        },
+        {
+          "movieId": "545611",
+          "title": "Everything Everywhere All at Once",
+          "cosineDistance": 0.734,
+          "cosineSimilarity": 0.266
+        },
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.7689,
+          "cosineSimilarity": 0.2311
+        },
+        {
+          "movieId": "19995",
+          "title": "Avatar",
+          "cosineDistance": 0.8215,
+          "cosineSimilarity": 0.1785
+        }
+      ]
+    },
+    "129": {
+      "title": "Spirited Away",
+      "cluster": 0,
+      "pcaCoords": [
+        0.0013,
+        -0.0743
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "560057",
+          "title": "The Sea Beast",
+          "cosineDistance": 0.5416,
+          "cosineSimilarity": 0.4584
+        },
+        {
+          "movieId": "73783",
+          "title": "If You Were Me: Anima Vision",
+          "cosineDistance": 0.7779,
+          "cosineSimilarity": 0.2221
+        },
+        {
+          "movieId": "592834",
+          "title": "My Spy",
+          "cosineDistance": 0.8584,
+          "cosineSimilarity": 0.1416
+        },
+        {
+          "movieId": "360814",
+          "title": "Dangal",
+          "cosineDistance": 0.8682,
+          "cosineSimilarity": 0.1318
+        },
+        {
+          "movieId": "14624",
+          "title": "The Ultimate Gift",
+          "cosineDistance": 0.8972,
+          "cosineSimilarity": 0.1028
+        }
+      ]
+    },
+    "76600": {
+      "title": "Avatar: The Way of Water",
+      "cluster": 1,
+      "pcaCoords": [
+        0.444,
+        -0.1186
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "19995",
+          "title": "Avatar",
+          "cosineDistance": 0.5192,
+          "cosineSimilarity": 0.4808
+        },
+        {
+          "movieId": "545611",
+          "title": "Everything Everywhere All at Once",
+          "cosineDistance": 0.7331,
+          "cosineSimilarity": 0.2669
+        },
+        {
+          "movieId": "299534",
+          "title": "Avengers: Endgame",
+          "cosineDistance": 0.7332,
+          "cosineSimilarity": 0.2668
+        },
+        {
+          "movieId": "634649",
+          "title": "Spider-Man: No Way Home",
+          "cosineDistance": 0.7689,
+          "cosineSimilarity": 0.2311
+        },
+        {
+          "movieId": "603",
+          "title": "The Matrix",
+          "cosineDistance": 0.8374,
+          "cosineSimilarity": 0.1626
+        }
+      ]
+    },
+    "19995": {
+      "title": "Avatar",
+      "cluster": 1,
+      "pcaCoords": [
+        0.4261,
+        -0.1443
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.5192,
+          "cosineSimilarity": 0.4808
+        },
+        {
+          "movieId": "299534",
+          "title": "Avengers: Endgame",
+          "cosineDistance": 0.7207,
+          "cosineSimilarity": 0.2793
+        },
+        {
+          "movieId": "545611",
+          "title": "Everything Everywhere All at Once",
+          "cosineDistance": 0.7392,
+          "cosineSimilarity": 0.2608
+        },
+        {
+          "movieId": "157336",
+          "title": "Interstellar",
+          "cosineDistance": 0.8166,
+          "cosineSimilarity": 0.1834
+        },
+        {
+          "movieId": "634649",
+          "title": "Spider-Man: No Way Home",
+          "cosineDistance": 0.8215,
+          "cosineSimilarity": 0.1785
+        }
+      ]
+    },
+    "680": {
+      "title": "Pulp Fiction",
+      "cluster": 0,
+      "pcaCoords": [
+        -0.0833,
+        0.0835
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "155",
+          "title": "The Dark Knight",
+          "cosineDistance": 0.6974,
+          "cosineSimilarity": 0.3026
+        },
+        {
+          "movieId": "496243",
+          "title": "Parasite",
+          "cosineDistance": 0.768,
+          "cosineSimilarity": 0.232
+        },
+        {
+          "movieId": "534780",
+          "title": "Andhadhun",
+          "cosineDistance": 0.8591,
+          "cosineSimilarity": 0.1409
+        },
+        {
+          "movieId": "497814",
+          "title": "Breaking In",
+          "cosineDistance": 0.87,
+          "cosineSimilarity": 0.13
+        },
+        {
+          "movieId": "632617",
+          "title": "C'mon C'mon",
+          "cosineDistance": 0.874,
+          "cosineSimilarity": 0.126
+        }
+      ]
+    },
+    "545611": {
+      "title": "Everything Everywhere All at Once",
+      "cluster": 1,
+      "pcaCoords": [
+        0.442,
+        -0.1222
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "299534",
+          "title": "Avengers: Endgame",
+          "cosineDistance": 0.7049,
+          "cosineSimilarity": 0.2951
+        },
+        {
+          "movieId": "569094",
+          "title": "Spider-Man: Across the Spider-Verse",
+          "cosineDistance": 0.7172,
+          "cosineSimilarity": 0.2828
+        },
+        {
+          "movieId": "603",
+          "title": "The Matrix",
+          "cosineDistance": 0.7275,
+          "cosineSimilarity": 0.2725
+        },
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.7331,
+          "cosineSimilarity": 0.2669
+        },
+        {
+          "movieId": "634649",
+          "title": "Spider-Man: No Way Home",
+          "cosineDistance": 0.734,
+          "cosineSimilarity": 0.266
+        }
+      ]
+    },
+    "438631": {
+      "title": "Dune",
+      "cluster": 1,
+      "pcaCoords": [
+        0.2773,
+        -0.2425
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "693134",
+          "title": "Dune: Part Two",
+          "cosineDistance": 0.3907,
+          "cosineSimilarity": 0.6093
+        },
+        {
+          "movieId": "603",
+          "title": "The Matrix",
+          "cosineDistance": 0.8059,
+          "cosineSimilarity": 0.1941
+        },
+        {
+          "movieId": "157336",
+          "title": "Interstellar",
+          "cosineDistance": 0.8427,
+          "cosineSimilarity": 0.1573
+        },
+        {
+          "movieId": "335984",
+          "title": "Blade Runner 2049",
+          "cosineDistance": 0.8687,
+          "cosineSimilarity": 0.1313
+        },
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.8814,
+          "cosineSimilarity": 0.1186
+        }
+      ]
+    },
+    "98": {
+      "title": "Gladiator",
+      "cluster": 3,
+      "pcaCoords": [
+        0.0767,
+        0.0895
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "361743",
+          "title": "Top Gun: Maverick",
+          "cosineDistance": 0.8041,
+          "cosineSimilarity": 0.1959
+        },
+        {
+          "movieId": "256040",
+          "title": "B\u0101hubali: The Beginning",
+          "cosineDistance": 0.8563,
+          "cosineSimilarity": 0.1437
+        },
+        {
+          "movieId": "579974",
+          "title": "RRR",
+          "cosineDistance": 0.8572,
+          "cosineSimilarity": 0.1428
+        },
+        {
+          "movieId": "560057",
+          "title": "The Sea Beast",
+          "cosineDistance": 0.8837,
+          "cosineSimilarity": 0.1163
+        },
+        {
+          "movieId": "438631",
+          "title": "Dune",
+          "cosineDistance": 0.9117,
+          "cosineSimilarity": 0.0883
+        }
+      ]
+    },
+    "238": {
+      "title": "The Godfather",
+      "cluster": 0,
+      "pcaCoords": [
+        -0.088,
+        0.1224
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "19402",
+          "title": "Wisegal",
+          "cosineDistance": 0.529,
+          "cosineSimilarity": 0.471
+        },
+        {
+          "movieId": "278",
+          "title": "The Shawshank Redemption",
+          "cosineDistance": 0.6612,
+          "cosineSimilarity": 0.3388
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.7774,
+          "cosineSimilarity": 0.2226
+        },
+        {
+          "movieId": "680",
+          "title": "Pulp Fiction",
+          "cosineDistance": 0.8775,
+          "cosineSimilarity": 0.1225
+        },
+        {
+          "movieId": "155",
+          "title": "The Dark Knight",
+          "cosineDistance": 0.883,
+          "cosineSimilarity": 0.117
+        }
+      ]
+    },
+    "13": {
+      "title": "Forrest Gump",
+      "cluster": 2,
+      "pcaCoords": [
+        -0.3276,
+        -0.3615
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "106440",
+          "title": "An American in China",
+          "cosineDistance": 0.6195,
+          "cosineSimilarity": 0.3805
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.6228,
+          "cosineSimilarity": 0.3772
+        },
+        {
+          "movieId": "19404",
+          "title": "Dilwale Dulhania Le Jayenge",
+          "cosineDistance": 0.6974,
+          "cosineSimilarity": 0.3026
+        },
+        {
+          "movieId": "297222",
+          "title": "PK",
+          "cosineDistance": 0.8322,
+          "cosineSimilarity": 0.1678
+        },
+        {
+          "movieId": "61202",
+          "title": "Zindagi Na Milegi Dobara",
+          "cosineDistance": 0.8423,
+          "cosineSimilarity": 0.1577
+        }
+      ]
+    },
+    "244786": {
+      "title": "Whiplash",
+      "cluster": 2,
+      "pcaCoords": [
+        -0.0227,
+        0.0393
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "799766",
+          "title": "Better Man",
+          "cosineDistance": 0.7867,
+          "cosineSimilarity": 0.2133
+        },
+        {
+          "movieId": "550",
+          "title": "Fight Club",
+          "cosineDistance": 0.8649,
+          "cosineSimilarity": 0.1351
+        },
+        {
+          "movieId": "496243",
+          "title": "Parasite",
+          "cosineDistance": 0.8716,
+          "cosineSimilarity": 0.1284
+        },
+        {
+          "movieId": "872906",
+          "title": "Jawan",
+          "cosineDistance": 0.9243,
+          "cosineSimilarity": 0.0757
+        },
+        {
+          "movieId": "155",
+          "title": "The Dark Knight",
+          "cosineDistance": 0.9281,
+          "cosineSimilarity": 0.0719
+        }
+      ]
+    },
+    "569094": {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "cluster": 1,
+      "pcaCoords": [
+        0.4228,
+        -0.1703
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "634649",
+          "title": "Spider-Man: No Way Home",
+          "cosineDistance": 0.4059,
+          "cosineSimilarity": 0.5941
+        },
+        {
+          "movieId": "545611",
+          "title": "Everything Everywhere All at Once",
+          "cosineDistance": 0.7172,
+          "cosineSimilarity": 0.2828
+        },
+        {
+          "movieId": "299534",
+          "title": "Avengers: Endgame",
+          "cosineDistance": 0.7256,
+          "cosineSimilarity": 0.2744
+        },
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.8382,
+          "cosineSimilarity": 0.1618
+        },
+        {
+          "movieId": "155",
+          "title": "The Dark Knight",
+          "cosineDistance": 0.854,
+          "cosineSimilarity": 0.146
+        }
+      ]
+    },
+    "361743": {
+      "title": "Top Gun: Maverick",
+      "cluster": 3,
+      "pcaCoords": [
+        0.0381,
+        0.0981
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "256040",
+          "title": "B\u0101hubali: The Beginning",
+          "cosineDistance": 0.7175,
+          "cosineSimilarity": 0.2825
+        },
+        {
+          "movieId": "801688",
+          "title": "Kalki 2898-AD",
+          "cosineDistance": 0.7912,
+          "cosineSimilarity": 0.2088
+        },
+        {
+          "movieId": "98",
+          "title": "Gladiator",
+          "cosineDistance": 0.8041,
+          "cosineSimilarity": 0.1959
+        },
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.8626,
+          "cosineSimilarity": 0.1374
+        },
+        {
+          "movieId": "579974",
+          "title": "RRR",
+          "cosineDistance": 0.875,
+          "cosineSimilarity": 0.125
+        }
+      ]
+    },
+    "335984": {
+      "title": "Blade Runner 2049",
+      "cluster": 1,
+      "pcaCoords": [
+        0.104,
+        -0.1424
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "603",
+          "title": "The Matrix",
+          "cosineDistance": 0.8067,
+          "cosineSimilarity": 0.1933
+        },
+        {
+          "movieId": "157336",
+          "title": "Interstellar",
+          "cosineDistance": 0.8266,
+          "cosineSimilarity": 0.1734
+        },
+        {
+          "movieId": "632617",
+          "title": "C'mon C'mon",
+          "cosineDistance": 0.8572,
+          "cosineSimilarity": 0.1428
+        },
+        {
+          "movieId": "438631",
+          "title": "Dune",
+          "cosineDistance": 0.8687,
+          "cosineSimilarity": 0.1313
+        },
+        {
+          "movieId": "297222",
+          "title": "PK",
+          "cosineDistance": 0.8749,
+          "cosineSimilarity": 0.1251
+        }
+      ]
+    },
+    "587412": {
+      "title": "K.G.F: Chapter 2",
+      "cluster": 3,
+      "pcaCoords": [
+        0.0285,
+        0.3978
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "872906",
+          "title": "Jawan",
+          "cosineDistance": 0.47,
+          "cosineSimilarity": 0.53
+        },
+        {
+          "movieId": "858485",
+          "title": "Kantara",
+          "cosineDistance": 0.714,
+          "cosineSimilarity": 0.286
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.8121,
+          "cosineSimilarity": 0.1879
+        },
+        {
+          "movieId": "155",
+          "title": "The Dark Knight",
+          "cosineDistance": 0.8331,
+          "cosineSimilarity": 0.1669
+        },
+        {
+          "movieId": "12259",
+          "title": "Sholay",
+          "cosineDistance": 0.8763,
+          "cosineSimilarity": 0.1237
+        }
+      ]
+    },
+    "12259": {
+      "title": "Sholay",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.0168,
+        0.2148
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "872906",
+          "title": "Jawan",
+          "cosineDistance": 0.8492,
+          "cosineSimilarity": 0.1508
+        },
+        {
+          "movieId": "579974",
+          "title": "RRR",
+          "cosineDistance": 0.8545,
+          "cosineSimilarity": 0.1455
+        },
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.8623,
+          "cosineSimilarity": 0.1377
+        },
+        {
+          "movieId": "587412",
+          "title": "K.G.F: Chapter 2",
+          "cosineDistance": 0.8763,
+          "cosineSimilarity": 0.1237
+        },
+        {
+          "movieId": "256040",
+          "title": "B\u0101hubali: The Beginning",
+          "cosineDistance": 0.8797,
+          "cosineSimilarity": 0.1203
+        }
+      ]
+    },
+    "19666": {
+      "title": "Lagaan: Once Upon a Time in India",
+      "cluster": 2,
+      "pcaCoords": [
+        -0.0238,
+        0.0253
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "872585",
+          "title": "Oppenheimer",
+          "cosineDistance": 0.8068,
+          "cosineSimilarity": 0.1932
+        },
+        {
+          "movieId": "579974",
+          "title": "RRR",
+          "cosineDistance": 0.886,
+          "cosineSimilarity": 0.114
+        },
+        {
+          "movieId": "157336",
+          "title": "Interstellar",
+          "cosineDistance": 0.894,
+          "cosineSimilarity": 0.106
+        },
+        {
+          "movieId": "15774",
+          "title": "Swades",
+          "cosineDistance": 0.8989,
+          "cosineSimilarity": 0.1011
+        },
+        {
+          "movieId": "12259",
+          "title": "Sholay",
+          "cosineDistance": 0.9009,
+          "cosineSimilarity": 0.0991
+        }
+      ]
+    },
+    "61202": {
+      "title": "Zindagi Na Milegi Dobara",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.339,
+        -0.1685
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "19404",
+          "title": "Dilwale Dulhania Le Jayenge",
+          "cosineDistance": 0.6539,
+          "cosineSimilarity": 0.3461
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.7071,
+          "cosineSimilarity": 0.2929
+        },
+        {
+          "movieId": "20453",
+          "title": "3 Idiots",
+          "cosineDistance": 0.7551,
+          "cosineSimilarity": 0.2449
+        },
+        {
+          "movieId": "106440",
+          "title": "An American in China",
+          "cosineDistance": 0.8199,
+          "cosineSimilarity": 0.1801
+        },
+        {
+          "movieId": "13",
+          "title": "Forrest Gump",
+          "cosineDistance": 0.8423,
+          "cosineSimilarity": 0.1577
+        }
+      ]
+    },
+    "538858": {
+      "title": "Tumbbad",
+      "cluster": 4,
+      "pcaCoords": [
+        -0.0848,
+        0.1199
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "955991",
+          "title": "The Offering",
+          "cosineDistance": 0.7624,
+          "cosineSimilarity": 0.2376
+        },
+        {
+          "movieId": "1112426",
+          "title": "Stree 2",
+          "cosineDistance": 0.7669,
+          "cosineSimilarity": 0.2331
+        },
+        {
+          "movieId": "335033",
+          "title": "She Waits",
+          "cosineDistance": 0.8366,
+          "cosineSimilarity": 0.1634
+        },
+        {
+          "movieId": "350312",
+          "title": "B\u0101hubali 2: The Conclusion",
+          "cosineDistance": 0.8865,
+          "cosineSimilarity": 0.1135
+        },
+        {
+          "movieId": "801688",
+          "title": "Kalki 2898-AD",
+          "cosineDistance": 0.8878,
+          "cosineSimilarity": 0.1122
+        }
+      ]
+    },
+    "858485": {
+      "title": "Kantara",
+      "cluster": 1,
+      "pcaCoords": [
+        0.1603,
+        0.3066
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "872906",
+          "title": "Jawan",
+          "cosineDistance": 0.6147,
+          "cosineSimilarity": 0.3853
+        },
+        {
+          "movieId": "587412",
+          "title": "K.G.F: Chapter 2",
+          "cosineDistance": 0.714,
+          "cosineSimilarity": 0.286
+        },
+        {
+          "movieId": "350312",
+          "title": "B\u0101hubali 2: The Conclusion",
+          "cosineDistance": 0.7883,
+          "cosineSimilarity": 0.2117
+        },
+        {
+          "movieId": "545611",
+          "title": "Everything Everywhere All at Once",
+          "cosineDistance": 0.8132,
+          "cosineSimilarity": 0.1868
+        },
+        {
+          "movieId": "76600",
+          "title": "Avatar: The Way of Water",
+          "cosineDistance": 0.8589,
+          "cosineSimilarity": 0.1411
+        }
+      ]
+    },
+    "15774": {
+      "title": "Swades",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.2002,
+        0.1653
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "781732",
+          "title": "Animal",
+          "cosineDistance": 0.7401,
+          "cosineSimilarity": 0.2599
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.7646,
+          "cosineSimilarity": 0.2354
+        },
+        {
+          "movieId": "256040",
+          "title": "B\u0101hubali: The Beginning",
+          "cosineDistance": 0.7651,
+          "cosineSimilarity": 0.2349
+        },
+        {
+          "movieId": "872906",
+          "title": "Jawan",
+          "cosineDistance": 0.8176,
+          "cosineSimilarity": 0.1824
+        },
+        {
+          "movieId": "20453",
+          "title": "3 Idiots",
+          "cosineDistance": 0.8341,
+          "cosineSimilarity": 0.1659
+        }
+      ]
+    },
+    "596650": {
+      "title": "Chhichhore",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.4674,
+        -0.2271
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "106440",
+          "title": "An American in China",
+          "cosineDistance": 0.504,
+          "cosineSimilarity": 0.496
+        },
+        {
+          "movieId": "13",
+          "title": "Forrest Gump",
+          "cosineDistance": 0.6228,
+          "cosineSimilarity": 0.3772
+        },
+        {
+          "movieId": "19404",
+          "title": "Dilwale Dulhania Le Jayenge",
+          "cosineDistance": 0.6403,
+          "cosineSimilarity": 0.3597
+        },
+        {
+          "movieId": "297222",
+          "title": "PK",
+          "cosineDistance": 0.7062,
+          "cosineSimilarity": 0.2938
+        },
+        {
+          "movieId": "61202",
+          "title": "Zindagi Na Milegi Dobara",
+          "cosineDistance": 0.7071,
+          "cosineSimilarity": 0.2929
+        }
+      ]
+    },
+    "801688": {
+      "title": "Kalki 2898-AD",
+      "cluster": 3,
+      "pcaCoords": [
+        0.0615,
+        0.0027
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "297222",
+          "title": "PK",
+          "cosineDistance": 0.7861,
+          "cosineSimilarity": 0.2139
+        },
+        {
+          "movieId": "361743",
+          "title": "Top Gun: Maverick",
+          "cosineDistance": 0.7912,
+          "cosineSimilarity": 0.2088
+        },
+        {
+          "movieId": "350312",
+          "title": "B\u0101hubali 2: The Conclusion",
+          "cosineDistance": 0.8493,
+          "cosineSimilarity": 0.1507
+        },
+        {
+          "movieId": "15774",
+          "title": "Swades",
+          "cosineDistance": 0.8694,
+          "cosineSimilarity": 0.1306
+        },
+        {
+          "movieId": "634649",
+          "title": "Spider-Man: No Way Home",
+          "cosineDistance": 0.8755,
+          "cosineSimilarity": 0.1245
+        }
+      ]
+    },
+    "1112426": {
+      "title": "Stree 2",
+      "cluster": 4,
+      "pcaCoords": [
+        -0.1843,
+        0.0106
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "955991",
+          "title": "The Offering",
+          "cosineDistance": 0.7172,
+          "cosineSimilarity": 0.2828
+        },
+        {
+          "movieId": "538858",
+          "title": "Tumbbad",
+          "cosineDistance": 0.7669,
+          "cosineSimilarity": 0.2331
+        },
+        {
+          "movieId": "534780",
+          "title": "Andhadhun",
+          "cosineDistance": 0.7795,
+          "cosineSimilarity": 0.2205
+        },
+        {
+          "movieId": "20453",
+          "title": "3 Idiots",
+          "cosineDistance": 0.7832,
+          "cosineSimilarity": 0.2168
+        },
+        {
+          "movieId": "360814",
+          "title": "Dangal",
+          "cosineDistance": 0.7927,
+          "cosineSimilarity": 0.2073
+        }
+      ]
+    },
+    "781732": {
+      "title": "Animal",
+      "cluster": 3,
+      "pcaCoords": [
+        -0.1323,
+        0.381
+      ],
+      "topKNNNeighbors": [
+        {
+          "movieId": "497814",
+          "title": "Breaking In",
+          "cosineDistance": 0.6429,
+          "cosineSimilarity": 0.3571
+        },
+        {
+          "movieId": "256040",
+          "title": "B\u0101hubali: The Beginning",
+          "cosineDistance": 0.7339,
+          "cosineSimilarity": 0.2661
+        },
+        {
+          "movieId": "15774",
+          "title": "Swades",
+          "cosineDistance": 0.7401,
+          "cosineSimilarity": 0.2599
+        },
+        {
+          "movieId": "238",
+          "title": "The Godfather",
+          "cosineDistance": 0.7774,
+          "cosineSimilarity": 0.2226
+        },
+        {
+          "movieId": "596650",
+          "title": "Chhichhore",
+          "cosineDistance": 0.7826,
+          "cosineSimilarity": 0.2174
+        }
+      ]
+    }
+  }
+}
