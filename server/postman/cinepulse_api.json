@@ -1,0 +1,84 @@
+{
+  "info": {
+    "name": "CinePulse Full-Stack Movie Recommendation API",
+    "description": "Comprehensive Postman Collection for Back End Engineering-II evaluation (Chitkara University 24CSE0315)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5001/api/health"
+      }
+    },
+    {
+      "name": "Auth - Register",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Test Student\",\n  \"email\": \"student@cinema.edu\",\n  \"password\": \"password123\",\n  \"favoriteGenres\": [\"Sci-Fi\", \"Thriller\"]\n}"
+        },
+        "url": "http://localhost:5001/api/auth/register"
+      }
+    },
+    {
+      "name": "Auth - Login",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"alex.vance@cinema.edu\",\n  \"password\": \"demo1234\"\n}"
+        },
+        "url": "http://localhost:5001/api/auth/login"
+      }
+    },
+    {
+      "name": "Movies - Get Catalog (with Search & Filter)",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://localhost:5001/api/movies?genre=Sci-Fi&minRating=8.0&sort=rating_desc",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5001",
+          "path": ["api", "movies"],
+          "query": [
+            { "key": "genre", "value": "Sci-Fi" },
+            { "key": "minRating", "value": "8.0" },
+            { "key": "sort", "value": "rating_desc" }
+          ]
+        }
+      }
+    },
+    {
+      "name": "Movies - Get Movie By ID",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5001/api/movies/interstellar-2014"
+      }
+    },
+    {
+      "name": "Recommendations - High-Accuracy Personalized KNN",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"favoriteGenres\": [\"Sci-Fi\", \"Action\"],\n  \"watchedMovieIds\": [\"inception-2010\"],\n  \"userRatings\": { \"inception-2010\": 5 },\n  \"algorithmMode\": \"hybrid\",\n  \"k\": 6,\n  \"metric\": \"cosine\"\n}"
+        },
+        "url": "http://localhost:5001/api/recommendations"
+      }
+    },
+    {
+      "name": "Recommendations - Similar To Movie KNN",
+      "request": {
+        "method": "GET",
+        "url": "http://localhost:5001/api/recommendations/similar/interstellar-2014?k=6"
+      }
+    }
+  ]
+}
